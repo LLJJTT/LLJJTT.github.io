@@ -30,14 +30,6 @@ module.exports= function(){
 			}
 			tab();
 		}
-		function prev() {
-			index--;
-			if(index < 0) {
-				index = $(".font_inner li").size() - 2;//因为index的0 == 第一个Li，减二是因为一开始就克隆了一个LI在尾部也就是多出了一个Li，减二也就是_index = Li的长度减二
-				$(".font_inner").css("top",- ($(".font_inner li").size() -1) * liHeight);//当_index为-1时执行这条，也就是走到li的最后一个
-			}
-			tab();
-		}
 		//自动轮播
 		autoTimer = setInterval(next,1500);
 		$(".font_inner a").hover(function(){
@@ -46,12 +38,6 @@ module.exports= function(){
 			autoTimer = setInterval(next,1500);
 		})
 
-		//鼠标放到左右方向时关闭定时器
-		$(".swiper_wrap .lt,.swiper_wrap .gt").hover(function(){
-			clearInterval(autoTimer);
-		},function(){
-			autoTimer = setInterval(next,1500);
-		})
-		//1文字轮播(2-5页中间)结束
+		// 
 	})
 }
