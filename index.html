@@ -1,4 +1,29 @@
-<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"><link rel="shortcut icon" type=image/x-icon href=favicon.ico><title>个人网站</title><style>body{
-        /* background: red; */
-      }</style><link href=/static/css/app.89f7ce6ab6215f5674e060738eef617f.css rel=stylesheet></head><body><div id=app></div><script>// var a = document.documentElement.clientWidth
-      // console.log(a)</script><script type=text/javascript src=/static/js/manifest.4548fda21632648236ad.js></script><script type=text/javascript src=/static/js/vendor.65184b8b46839ee4eb14.js></script><script type=text/javascript src=/static/js/app.258d534266a66d036152.js></script></body></html>
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"><link rel="shortcut icon" type=image/x-icon href=favicon.ico><title>个人网站</title><style>@keyframes jumping {
+        0%    {transform:scale(1.5);}
+        100%  {transform:scale(0.8);}
+      }
+      @keyframes line {
+        0%    {stroke-dashoffset:0}
+        100%    {stroke-dashoffset:100%}
+      }
+      #firstDot{
+        animation: jumping 0.5s ease-in-out alternate infinite;
+      }
+      .line {
+        z-index:10;
+        stroke: rgba(46, 204, 113,1.0);
+        stroke-width:1;
+        stroke-dasharray: 5 10;
+        animation: line 30s linear infinite;
+      }
+      .dotted{
+        stroke:black;
+        width: 10px;
+        height: 10px;
+        fill: rgba(241, 196, 15,1.0);
+      }
+      .dotted:hover{
+        cursor: pointer;
+        transform: scale(2);
+        transition: .6s;
+      }</style><script></script><link href=/static/css/app.45ba1fdd2ffddf808cd8b5f5da80c8bd.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=/static/js/manifest.3c69a70bb2b4c7f92a0d.js></script><script type=text/javascript src=/static/js/vendor.8c3efab48ec97f53841c.js></script><script type=text/javascript src=/static/js/app.f473ab2d8f9c054882f9.js></script></body></html>
