@@ -1,4 +1,29 @@
-<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"><link rel="shortcut icon" type=image/x-icon href=favicon.ico><title>个人网站</title><style>body{
-        /* background: red; */
-      }</style><link href=/static/css/app.c3d0039fbe0a64f89ef037962795f7a5.css rel=stylesheet></head><body><div id=app></div><script>// var a = document.documentElement.clientWidth
-      // console.log(a)</script><script type=text/javascript src=/static/js/manifest.0386ec6c6a2eb3ad68dd.js></script><script type=text/javascript src=/static/js/vendor.8c3efab48ec97f53841c.js></script><script type=text/javascript src=/static/js/app.5d440c4b4180736c4712.js></script></body></html>
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"><link rel="shortcut icon" type=image/x-icon href=favicon.ico><title>个人网站</title><style>@keyframes jumping {
+        0%    {transform:scale(1.5);}
+        100%  {transform:scale(0.8);}
+      }
+      @keyframes line {
+        0%    {stroke-dashoffset:0}
+        100%    {stroke-dashoffset:100%}
+      }
+      #firstDot{
+        animation: jumping 0.5s ease-in-out alternate infinite;
+      }
+      .line {
+        z-index:10;
+        stroke: rgba(46, 204, 113,1.0);
+        stroke-width:1;
+        stroke-dasharray: 5 10;
+        animation: line 30s linear infinite;
+      }
+      .dotted{
+        stroke:black;
+        width: 10px;
+        height: 10px;
+        fill: rgba(241, 196, 15,1.0);
+      }
+      .dotted:hover{
+        cursor: pointer;
+        transform: scale(2);
+        transition: .6s;
+      }</style><script></script><link href=./static/css/app.4768c27b85d74026993b8e506175a1e7.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=./static/js/manifest.8239e91c9ed9a36b4e95.js></script><script type=text/javascript src=./static/js/vendor.8c3efab48ec97f53841c.js></script><script type=text/javascript src=./static/js/app.36289fd01a16f3724c62.js></script></body></html>
