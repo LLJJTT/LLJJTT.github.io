@@ -1,0 +1,389 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.19.5
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/lijinghuan/Desktop/cesium-csdn/.npmrc
+5 silly config load:file:/Users/lijinghuan/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm install vue-router@4
+8 verbose argv "install" "vue-router@4" "--cache" "./npm-cache"
+9 verbose logfile logs-max:10 dir:/Users/lijinghuan/Desktop/cesium-csdn/npm-cache/_logs/2026-01-23T05_41_27_752Z-
+10 verbose logfile /Users/lijinghuan/Desktop/cesium-csdn/npm-cache/_logs/2026-01-23T05_41_27_752Z-debug-0.log
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest vue-router@4
+15 silly packumentCache full:https://registry.npmjs.org/vue-router cache-miss
+16 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+17 http fetch GET 200 https://registry.npmjs.org/vue-router 1373ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/vue-router set size:undefined disposed:false
+19 silly fetch manifest vue@^3.5.13
+20 silly packumentCache full:https://registry.npmjs.org/vue cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/npm 1877ms
+22 http fetch GET 200 https://registry.npmjs.org/vue 584ms (cache miss)
+23 silly packumentCache full:https://registry.npmjs.org/vue set size:undefined disposed:false
+24 silly fetch manifest typescript@*
+25 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+26 http fetch GET 200 https://registry.npmjs.org/typescript 1971ms (cache miss)
+27 silly packumentCache full:https://registry.npmjs.org/typescript set size:undefined disposed:false
+28 silly placeDep ROOT vue-router@4.6.4 OK for: cesium-csdn@0.0.0 want: 4
+29 silly fetch manifest @vue/devtools-api@^6.6.4
+30 silly packumentCache full:https://registry.npmjs.org/@vue%2fdevtools-api cache-miss
+31 http fetch GET 200 https://registry.npmjs.org/@vue%2fdevtools-api 252ms (cache miss)
+32 silly packumentCache full:https://registry.npmjs.org/@vue%2fdevtools-api set size:undefined disposed:false
+33 silly placeDep ROOT @vue/devtools-api@6.6.4 OK for: vue-router@4.6.4 want: ^6.6.4
+34 silly reify moves {}
+35 silly audit bulk request {
+35 silly audit   '@babel/helper-string-parser': [ '7.27.1' ],
+35 silly audit   '@babel/helper-validator-identifier': [ '7.28.5' ],
+35 silly audit   '@babel/parser': [ '7.28.6' ],
+35 silly audit   '@babel/types': [ '7.28.6' ],
+35 silly audit   '@esbuild/aix-ppc64': [ '0.25.12' ],
+35 silly audit   '@esbuild/android-arm': [ '0.25.12' ],
+35 silly audit   '@esbuild/android-arm64': [ '0.25.12' ],
+35 silly audit   '@esbuild/android-x64': [ '0.25.12' ],
+35 silly audit   '@esbuild/darwin-arm64': [ '0.25.12' ],
+35 silly audit   '@esbuild/darwin-x64': [ '0.25.12' ],
+35 silly audit   '@esbuild/freebsd-arm64': [ '0.25.12' ],
+35 silly audit   '@esbuild/freebsd-x64': [ '0.25.12' ],
+35 silly audit   '@esbuild/linux-arm': [ '0.25.12' ],
+35 silly audit   '@esbuild/linux-arm64': [ '0.25.12' ],
+35 silly audit   '@esbuild/linux-ia32': [ '0.25.12' ],
+35 silly audit   '@esbuild/linux-loong64': [ '0.25.12' ],
+35 silly audit   '@esbuild/linux-mips64el': [ '0.25.12' ],
+35 silly audit   '@esbuild/linux-ppc64': [ '0.25.12' ],
+35 silly audit   '@esbuild/linux-riscv64': [ '0.25.12' ],
+35 silly audit   '@esbuild/linux-s390x': [ '0.25.12' ],
+35 silly audit   '@esbuild/linux-x64': [ '0.25.12' ],
+35 silly audit   '@esbuild/netbsd-arm64': [ '0.25.12' ],
+35 silly audit   '@esbuild/netbsd-x64': [ '0.25.12' ],
+35 silly audit   '@esbuild/openbsd-arm64': [ '0.25.12' ],
+35 silly audit   '@esbuild/openbsd-x64': [ '0.25.12' ],
+35 silly audit   '@esbuild/openharmony-arm64': [ '0.25.12' ],
+35 silly audit   '@esbuild/sunos-x64': [ '0.25.12' ],
+35 silly audit   '@esbuild/win32-arm64': [ '0.25.12' ],
+35 silly audit   '@esbuild/win32-ia32': [ '0.25.12' ],
+35 silly audit   '@esbuild/win32-x64': [ '0.25.12' ],
+35 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+35 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.56.0' ],
+35 silly audit   '@rollup/rollup-android-arm64': [ '4.56.0' ],
+35 silly audit   '@rollup/rollup-darwin-arm64': [ '4.56.0' ],
+35 silly audit   '@rollup/rollup-darwin-x64': [ '4.56.0' ],
+35 silly audit   '@rollup/rollup-freebsd-arm64': [ '4.56.0' ],
+35 silly audit   '@rollup/rollup-freebsd-x64': [ '4.56.0' ],
+35 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.56.0' ],
+35 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.56.0' ],
+35 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.56.0' ],
+35 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.56.0' ],
+35 silly audit   '@rollup/rollup-linux-loong64-gnu': [ '4.56.0' ],
+35 silly audit   '@rollup/rollup-linux-loong64-musl': [ '4.56.0' ],
+35 silly audit   '@rollup/rollup-linux-ppc64-gnu': [ '4.56.0' ],
+35 silly audit   '@rollup/rollup-linux-ppc64-musl': [ '4.56.0' ],
+35 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.56.0' ],
+35 silly audit   '@rollup/rollup-linux-riscv64-musl': [ '4.56.0' ],
+35 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.56.0' ],
+35 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.56.0' ],
+35 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.56.0' ],
+35 silly audit   '@rollup/rollup-openbsd-x64': [ '4.56.0' ],
+35 silly audit   '@rollup/rollup-openharmony-arm64': [ '4.56.0' ],
+35 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.56.0' ],
+35 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.56.0' ],
+35 silly audit   '@rollup/rollup-win32-x64-gnu': [ '4.56.0' ],
+35 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.56.0' ],
+35 silly audit   '@types/estree': [ '1.0.8' ],
+35 silly audit   '@vitejs/plugin-vue': [ '5.2.4' ],
+35 silly audit   '@vue/compiler-core': [ '3.5.27' ],
+35 silly audit   '@vue/compiler-dom': [ '3.5.27' ],
+35 silly audit   '@vue/compiler-sfc': [ '3.5.27' ],
+35 silly audit   '@vue/compiler-ssr': [ '3.5.27' ],
+35 silly audit   '@vue/reactivity': [ '3.5.27' ],
+35 silly audit   '@vue/runtime-core': [ '3.5.27' ],
+35 silly audit   '@vue/runtime-dom': [ '3.5.27' ],
+35 silly audit   '@vue/server-renderer': [ '3.5.27' ],
+35 silly audit   '@vue/shared': [ '3.5.27' ],
+35 silly audit   csstype: [ '3.2.3' ],
+35 silly audit   entities: [ '7.0.1' ],
+35 silly audit   esbuild: [ '0.25.12' ],
+35 silly audit   'estree-walker': [ '2.0.2' ],
+35 silly audit   fdir: [ '6.5.0' ],
+35 silly audit   fsevents: [ '2.3.3' ],
+35 silly audit   'magic-string': [ '0.30.21' ],
+35 silly audit   nanoid: [ '3.3.11' ],
+35 silly audit   picocolors: [ '1.1.1' ],
+35 silly audit   picomatch: [ '4.0.3' ],
+35 silly audit   postcss: [ '8.5.6' ],
+35 silly audit   rollup: [ '4.56.0' ],
+35 silly audit   'source-map-js': [ '1.2.1' ],
+35 silly audit   tinyglobby: [ '0.2.15' ],
+35 silly audit   vite: [ '6.4.1' ],
+35 silly audit   vue: [ '3.5.27' ],
+35 silly audit   'vue-router': [ '4.6.4' ],
+35 silly audit   '@vue/devtools-api': [ '6.6.4' ]
+35 silly audit }
+36 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-win32-x64-msvc
+37 silly reify mark deleted [
+37 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-win32-x64-msvc'
+37 silly reify ]
+38 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-win32-x64-gnu
+39 silly reify mark deleted [
+39 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-win32-x64-gnu'
+39 silly reify ]
+40 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-win32-ia32-msvc
+41 silly reify mark deleted [
+41 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-win32-ia32-msvc'
+41 silly reify ]
+42 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-win32-arm64-msvc
+43 silly reify mark deleted [
+43 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-win32-arm64-msvc'
+43 silly reify ]
+44 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-openharmony-arm64
+45 silly reify mark deleted [
+45 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-openharmony-arm64'
+45 silly reify ]
+46 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-openbsd-x64
+47 silly reify mark deleted [
+47 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-openbsd-x64'
+47 silly reify ]
+48 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-linux-x64-musl
+49 silly reify mark deleted [
+49 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-linux-x64-musl'
+49 silly reify ]
+50 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-linux-x64-gnu
+51 silly reify mark deleted [
+51 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-linux-x64-gnu'
+51 silly reify ]
+52 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-linux-s390x-gnu
+53 silly reify mark deleted [
+53 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-linux-s390x-gnu'
+53 silly reify ]
+54 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-linux-riscv64-musl
+55 silly reify mark deleted [
+55 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-linux-riscv64-musl'
+55 silly reify ]
+56 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-linux-riscv64-gnu
+57 silly reify mark deleted [
+57 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-linux-riscv64-gnu'
+57 silly reify ]
+58 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-linux-ppc64-musl
+59 silly reify mark deleted [
+59 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-linux-ppc64-musl'
+59 silly reify ]
+60 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-linux-ppc64-gnu
+61 silly reify mark deleted [
+61 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-linux-ppc64-gnu'
+61 silly reify ]
+62 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-linux-loong64-musl
+63 silly reify mark deleted [
+63 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-linux-loong64-musl'
+63 silly reify ]
+64 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-linux-loong64-gnu
+65 silly reify mark deleted [
+65 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-linux-loong64-gnu'
+65 silly reify ]
+66 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-linux-arm64-musl
+67 silly reify mark deleted [
+67 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-linux-arm64-musl'
+67 silly reify ]
+68 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-linux-arm64-gnu
+69 silly reify mark deleted [
+69 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-linux-arm64-gnu'
+69 silly reify ]
+70 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-linux-arm-musleabihf
+71 silly reify mark deleted [
+71 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-linux-arm-musleabihf'
+71 silly reify ]
+72 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-linux-arm-gnueabihf
+73 silly reify mark deleted [
+73 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-linux-arm-gnueabihf'
+73 silly reify ]
+74 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-freebsd-x64
+75 silly reify mark deleted [
+75 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-freebsd-x64'
+75 silly reify ]
+76 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-freebsd-arm64
+77 silly reify mark deleted [
+77 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-freebsd-arm64'
+77 silly reify ]
+78 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-darwin-arm64
+79 silly reify mark deleted [
+79 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-darwin-arm64'
+79 silly reify ]
+80 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-android-arm64
+81 silly reify mark deleted [
+81 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-android-arm64'
+81 silly reify ]
+82 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-android-arm-eabi
+83 silly reify mark deleted [
+83 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@rollup/rollup-android-arm-eabi'
+83 silly reify ]
+84 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/win32-x64
+85 silly reify mark deleted [
+85 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/win32-x64'
+85 silly reify ]
+86 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/win32-ia32
+87 silly reify mark deleted [
+87 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/win32-ia32'
+87 silly reify ]
+88 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/win32-arm64
+89 silly reify mark deleted [
+89 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/win32-arm64'
+89 silly reify ]
+90 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/sunos-x64
+91 silly reify mark deleted [
+91 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/sunos-x64'
+91 silly reify ]
+92 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/openharmony-arm64
+93 silly reify mark deleted [
+93 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/openharmony-arm64'
+93 silly reify ]
+94 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/openbsd-x64
+95 silly reify mark deleted [
+95 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/openbsd-x64'
+95 silly reify ]
+96 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/openbsd-arm64
+97 silly reify mark deleted [
+97 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/openbsd-arm64'
+97 silly reify ]
+98 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/netbsd-x64
+99 silly reify mark deleted [
+99 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/netbsd-x64'
+99 silly reify ]
+100 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/netbsd-arm64
+101 silly reify mark deleted [
+101 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/netbsd-arm64'
+101 silly reify ]
+102 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/linux-x64
+103 silly reify mark deleted [
+103 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/linux-x64'
+103 silly reify ]
+104 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/linux-s390x
+105 silly reify mark deleted [
+105 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/linux-s390x'
+105 silly reify ]
+106 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/linux-riscv64
+107 silly reify mark deleted [
+107 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/linux-riscv64'
+107 silly reify ]
+108 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/linux-ppc64
+109 silly reify mark deleted [
+109 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/linux-ppc64'
+109 silly reify ]
+110 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/linux-mips64el
+111 silly reify mark deleted [
+111 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/linux-mips64el'
+111 silly reify ]
+112 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/linux-loong64
+113 silly reify mark deleted [
+113 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/linux-loong64'
+113 silly reify ]
+114 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/linux-ia32
+115 silly reify mark deleted [
+115 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/linux-ia32'
+115 silly reify ]
+116 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/linux-arm64
+117 silly reify mark deleted [
+117 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/linux-arm64'
+117 silly reify ]
+118 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/linux-arm
+119 silly reify mark deleted [
+119 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/linux-arm'
+119 silly reify ]
+120 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/freebsd-x64
+121 silly reify mark deleted [
+121 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/freebsd-x64'
+121 silly reify ]
+122 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/freebsd-arm64
+123 silly reify mark deleted [
+123 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/freebsd-arm64'
+123 silly reify ]
+124 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/darwin-arm64
+125 silly reify mark deleted [
+125 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/darwin-arm64'
+125 silly reify ]
+126 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/android-x64
+127 silly reify mark deleted [
+127 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/android-x64'
+127 silly reify ]
+128 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/android-arm64
+129 silly reify mark deleted [
+129 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/android-arm64'
+129 silly reify ]
+130 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/android-arm
+131 silly reify mark deleted [
+131 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/android-arm'
+131 silly reify ]
+132 verbose reify failed optional dependency /Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/aix-ppc64
+133 silly reify mark deleted [
+133 silly reify   '/Users/lijinghuan/Desktop/cesium-csdn/node_modules/@esbuild/aix-ppc64'
+133 silly reify ]
+134 silly tarball no local data for vue-router@https://registry.npmjs.org/vue-router/-/vue-router-4.6.4.tgz. Extracting by manifest.
+135 silly tarball no local data for @vue/devtools-api@https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.6.4.tgz. Extracting by manifest.
+136 silly tarball no local data for fsevents@https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz. Extracting by manifest.
+137 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 303ms
+138 silly audit report {}
+139 http fetch GET 200 https://registry.npmjs.org/vue-router/-/vue-router-4.6.4.tgz 307ms (cache miss)
+140 http fetch GET 200 https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz 1873ms (cache miss)
+141 http fetch GET 200 https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.6.4.tgz 3282ms (cache miss)
+142 silly ADD node_modules/@vue/devtools-api
+143 silly ADD node_modules/vue-router
+144 silly ADD node_modules/fsevents
+145 silly ADD
+146 silly ADD
+147 silly ADD
+148 silly ADD
+149 silly ADD
+150 silly ADD
+151 silly ADD
+152 silly ADD
+153 silly ADD
+154 silly ADD
+155 silly ADD
+156 silly ADD
+157 silly ADD
+158 silly ADD
+159 silly ADD
+160 silly ADD
+161 silly ADD
+162 silly ADD
+163 silly ADD
+164 silly ADD
+165 silly ADD
+166 silly ADD
+167 silly ADD
+168 silly ADD
+169 silly ADD
+170 silly ADD
+171 silly ADD
+172 silly ADD
+173 silly ADD
+174 silly ADD
+175 silly ADD
+176 silly ADD
+177 silly ADD
+178 silly ADD
+179 silly ADD
+180 silly ADD
+181 silly ADD
+182 silly ADD
+183 silly ADD
+184 silly ADD
+185 silly ADD
+186 silly ADD
+187 silly ADD
+188 silly ADD
+189 silly ADD
+190 silly ADD
+191 silly ADD
+192 silly ADD
+193 silly ADD
+194 verbose cwd /Users/lijinghuan/Desktop/cesium-csdn
+195 verbose os Darwin 20.3.0
+196 verbose node v20.19.5
+197 verbose npm  v10.8.2
+198 notice
+198 notice New [31mmajor[39m version of npm available! [31m10.8.2[39m -> [34m11.8.0[39m
+198 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v11.8.0[39m
+198 notice To update run: [4mnpm install -g npm@11.8.0[24m
+198 notice  { force: true, [Symbol(proc-log.meta)]: true }
+199 verbose exit 0
+200 info ok
